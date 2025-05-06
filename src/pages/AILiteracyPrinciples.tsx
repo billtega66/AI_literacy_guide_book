@@ -19,14 +19,16 @@ const AILiteracyPrinciplesPage: React.FC = () => {
             While a single definition for AI Literacy is not agreed upon, there are core principles that comprise AI literacy. Following the core principles below can help individuals become more literate in AI and better apply AI to their academic needs and use cases. As each principle below is introduced, sections in the AI guidebook will be referenced for further reading on the topics that makeup each AI literacy principle.
           </p>
 
-          <figure className="my-8">
+          <figure className="float-left w-[625px] mr-6 mb-4">
             <img 
               src="/AI_literacy_principles.png"
               alt="AI Literacy Principles" 
-              className="w-1/3 mx-auto rounded-lg shadow-lg"
+              width={625}
+              height={627}
+              className="rounded-lg shadow-lg w-full h-auto"
             />
             <figcaption className="text-sm text-amber-700 mt-2 text-center">
-              OpenAI. (n.d.). ChatGPT. https://chatgpt.com/
+              AI Literacy Cycle. Adapted from OpenAI. (n.d.). ChatGPT. https://chatgpt.com/
             </figcaption>
           </figure>
         </div>

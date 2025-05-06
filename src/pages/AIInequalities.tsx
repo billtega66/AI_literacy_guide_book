@@ -24,7 +24,7 @@ const AIInequalitiesPage: React.FC = () => {
               style={{ width: '100%', maxWidth: '600px', height: 'auto', objectFit: 'contain' }}
             />
             <figcaption className="text-sm text-amber-700 mt-2 text-center">
-              Overview of AI-Inherent Inequalities and Their Interconnections. Adapted from "Taxonomy of risks posed by language models" by Weidinger et al., 2022, Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency.
+              Overview of AI-Inherent Inequalities and Their Interconnections. Adapted from OpenAI. (n.d.). ChatGPT. https://chatgpt.com/
             </figcaption>
           </figure>
         </div>
@@ -63,18 +63,10 @@ const AIInequalitiesPage: React.FC = () => {
         </div>
       </ContentSection>
 
-      <ContentSection title="Human-Computer Interaction Harms">
-        <div className="prose prose-amber max-w-none">
-          <p className="mb-4">
-            In Weidinger and colleagues' [1] LLM-risk-category of human-computer interaction harms, the authors also draw attention to conversational agents' risks for reinforcing stereotypes and exploitation of user trust. Discriminatory stereotypes are embedded in the design of LLMs, for example, by having voice assistants sound female, white, and submissive, thereby perpetuating existing gender and ethnic biases [1][9]. Besides, anthropomorphic speech used by modern LM chatbots wins over users' trust more easily, thus nudging them into revealing more private data [1][10]. Another oftentimes overlooked human-computer interaction harm that poses an equity issue, is that of human labor [3][7]. Highly underpaid contract workers, usually from the Global South (which benefits the least from advances in AI technologies), are tasked with filtering, labelling, and tagging toxic LM inputs and outputs crucial for the training of AI systems [8][11].
-          </p>
-        </div>
-      </ContentSection>
-
       <ContentSection title="Environmental and Socioeconomic Harms">
         <div className="prose prose-amber max-w-none">
-          <p className="mb-4">
-            The last of the six major AI-embedded equity issues highlights AIs' environmental and, by implication, socioeconomic harm inflictions [1]. The sourcing and mining of materials needed to develop, as well as the resources required for the operation of AI systems release significant amounts of CO2 emissions [1][11], whereby the environmental and socioeconomic costs incurred will, similarly to the above example of labor exploitation, affect already marginalized groups the most [2]. To address these issues, architectural model innovations, the deployment of sustainable energy sources, and improvements to training efficiency are necessary [1].
+          <p className="mb-4">  
+          The last of the six major AI-embedded equity issues highlights AIs’ environmental and, by implication, socioeconomic harm inflictions [1]. The sourcing and mining of materials needed to develop, as well as the resources required for the operation of AI systems release significant amounts of CO2 emissions [1][11], whereby the environmental and socioeconomic costs incurred will, similarly to the above example of labor exploitation, affect already marginalized groups the most [2]. To address these issues, architectural model innovations, the deployment of sustainable energy sources, and improvements to training efficiency are necessary [1]. Educating the College of Wooster community about these risk areas is important for safeguarding a well-informed and critical use of AI tools. Besides, based on the environmental and subsequent socio-economic harm, faculty and students should be encouraged to reflect on the actual urgency of resorting to AI for completing tasks and assignments. This would help align their use of AI technology with Wooster’s goals of decreasing carbon emissions and fostering environmental justice, as outlined in its preliminary Climate Action Plan [12].
           </p>
         </div>
       </ContentSection>

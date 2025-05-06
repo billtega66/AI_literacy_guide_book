@@ -16,19 +16,21 @@ const AIEquitableAccessPage: React.FC = () => {
     >
       <ContentSection>
         <div className="prose prose-amber max-w-none">
-          <div className="mb-8">
-            <figure className="w-full mb-6">
+          
+            <figure className="float-left w-[272px] mr-6 mb-4">
               <img 
                 src="/safeguarding_equitable_AI_and_Equity.png"
                 alt="Diagram showing strategies for safeguarding equitable AI access, including digital divide mitigation, AI equity committee establishment, and feedback mechanisms" 
-                className="rounded-lg shadow-lg mx-auto"
-                style={{ width: '50%', maxWidth: '600px', height: 'auto', objectFit: 'contain' }}
+                width={272}
+                height={179}
+                className="rounded-lg shadow-lg w-full h-auto"
               />
               <figcaption className="text-sm text-amber-700 mt-2 text-center">
-                Strategies for Safeguarding Equitable AI Access at The College of Wooster. Adapted from "From concerns to benefits: A comprehensive study of ChatGPT usage in education" by Jo, 2024, International Journal of Educational Technology in Higher Education.
+                Strategies for Safeguarding Equitable AI Access at The College of Wooster. Adapted from https://images.app.goo.gl/wmo
+                vjHt2YxzB8DCs8
               </figcaption>
             </figure>
-          </div>
+          
           
           <p className="mb-4">
           Aside from educating students, staff, and faculty about inequalities embedded in AI systems, the Academic Resource Center should do its utmost to safeguard digital equity within the institution.
@@ -39,6 +41,8 @@ const AIEquitableAccessPage: React.FC = () => {
           <p className="mb-4">
 Equitable access to AI technology at The College of Wooster can be ensured by combating the digital divide via the provision of fair and personalized AI education [1][2]; by establishing and adhering to the advice given by an AI equity committee; and by implementing an institution-wide AI feedback mechanism to evaluate patterns and influence trends in students’ and faculty members’ AI use.
           </p>
+          {/* Clear float before next sections */}
+          <div className="clear-left"></div>
         </div>
       </ContentSection>
       <ContentSection title="Combating the Digital Divide">

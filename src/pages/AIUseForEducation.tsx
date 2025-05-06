@@ -44,6 +44,9 @@ const AIUseForEducationPage: React.FC = () => {
           There are already some colleges that enhance their work by letting their student access the use of AI for education. Having an AI-powered specifically for education purposes is an outstanding step in this industry because of how the ethical use of AI in the academic field responds to it. As the ethical issues are becoming more important along with the growth of the AI industry, colleges must establish clear guidelines to ensure responsible use.
           </p>
           <p className="mb-4">
+          As noted in Frontiers in Education [1], Artificial intelligence is changing universities of higher education by improving learning and instruction techniques, reducing administrative tasks, and pushing innovations. However, the articles also point out that the use of AI can be "challenging" if the institution does not have a clear policy on how to use AI[2]. The College of Wooster is one of the colleges that has not yet established a clear policy on how to use AI, and it is important to establish a clear policy in order to avoid ethical issues.
+          </p>
+          <p className="mb-4">
           The College of Wooster has an opportunity to rise better with the help of the AI industry movement. Popular schools such as Harvard and CSU have played a role as leaders in applying the use of AI in research and study. This step could be the next great move in the educational field, resulting in improved teaching and learning in the future. 
           </p>
         </div>
@@ -73,6 +76,19 @@ const AIUseForEducationPage: React.FC = () => {
               </div>
             </a>
           ))}
+
+          <div className="bg-amber-50 p-6 rounded-lg">
+            <h3 className="text-lg font-semibold text-amber-900 mb-4">References</h3>
+            <ol className="list-decimal list-inside space-y-2 text-sm text-amber-800">
+              <li>
+              Ocen, S., Elasu, J., Aarakit, S. M., & Olupot, C. (2025, March). Artificial intelligence in higher education institutions: review of innovations, opportunities and challenges. In Frontiers in Education (Vol. 10, p. 1530247). Frontiers Media SA.
+              </li>
+              <li>
+              Liang, Y. (2023). Balancing: the effects of AI tools in educational context. Front. Hum. Soc. Res. 3, 7–10. doi: 10.54691/fhss.v3i8.5531
+              </li>
+                
+            </ol>
+          </div>
         </div>
       </ContentSection>
     </MainLayout>
