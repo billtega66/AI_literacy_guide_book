@@ -11,6 +11,8 @@ import AIEquitableAccessPage from './pages/AIEquitableAccess';
 import EthicalUseOfAIPage from './pages/EthicalUseOfAI';
 import AIPlagiarismPage from './pages/AIPlagiarism';
 import StudentUseOfAIPage from './pages/StudentUseOfAI';
+import AIcitationinCollegePage from './pages/AIcitationinCollege';
+import AboutUsPage from './pages/AboutUs';
 
 import ChallengesAndConcernsPage from './pages/ChallengesAndConcerns';
 import AIUseForEducationPage from './pages/AIUseForEducation';
@@ -28,6 +30,8 @@ function App() {
         setCurrentPage('introduction');
       } else if (path.includes('contact')) {
         setCurrentPage('contact');
+      } else if (path.includes('about')) {
+        setCurrentPage('about');
       } else if (path.includes('defining-ai-literacy')) {
         setCurrentPage('defining-ai-literacy');
       } else if (path.includes('ai-literacy-cow')) {
@@ -44,6 +48,8 @@ function App() {
         setCurrentPage('ethical-use');
       } else if (path.includes('plagiarism')) {
         setCurrentPage('plagiarism');
+      } else if (path.includes('ai-citation')) {
+        setCurrentPage('ai-citation');
       } else if (path.includes('student-use')) {
         setCurrentPage('student-use');
       } else if (path.includes('challenges')) {
@@ -87,6 +93,7 @@ function App() {
       {currentPage === 'home' && <HomePage />}
       {currentPage === 'introduction' && <IntroductionPage />}
       {currentPage === 'contact' && <ContactPage />}
+      {currentPage === 'about' && <AboutUsPage />}
       {currentPage === 'defining-ai-literacy' && <DefiningAILiteracyPage />}
       {currentPage === 'ai-literacy-cow' && <AILiteracyatTheCowPage />}
       {currentPage === 'ai-literacy-principles' && <AILiteracyPrinciplesPage />}
@@ -95,6 +102,7 @@ function App() {
       {currentPage === 'ai-equitable-access' && <AIEquitableAccessPage />}
       {currentPage === 'ethical-use' && <EthicalUseOfAIPage />}
       {currentPage === 'plagiarism' && <AIPlagiarismPage />}
+      {currentPage === 'ai-citation' && <AIcitationinCollegePage />}
       {currentPage === 'student-use' && <StudentUseOfAIPage />}
       {currentPage === 'challenges' && <ChallengesAndConcernsPage />}
       {currentPage === 'ai-education' && <AIUseForEducationPage />}

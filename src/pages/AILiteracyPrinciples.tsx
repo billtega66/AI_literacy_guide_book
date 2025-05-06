@@ -16,8 +16,19 @@ const AILiteracyPrinciplesPage: React.FC = () => {
       <ContentSection>
         <div className="prose prose-amber max-w-none">
           <p className="mb-4">
-           While a single definition for AI Literacy is not agreed upon, there are core principles that comprise AI literacy. Following the core principles below can help individuals become more literate in AI and better apply AI to their academic needs and use cases. As each principle below is introduced, sections in the AI guidebook will be referenced for further reading on the topics that makeup each AI literacy principle. 
+            While a single definition for AI Literacy is not agreed upon, there are core principles that comprise AI literacy. Following the core principles below can help individuals become more literate in AI and better apply AI to their academic needs and use cases. As each principle below is introduced, sections in the AI guidebook will be referenced for further reading on the topics that makeup each AI literacy principle.
           </p>
+
+          <figure className="my-8">
+            <img 
+              src="/AI_literacy_principles.png"
+              alt="AI Literacy Principles" 
+              className="w-1/3 mx-auto rounded-lg shadow-lg"
+            />
+            <figcaption className="text-sm text-amber-700 mt-2 text-center">
+              OpenAI. (n.d.). ChatGPT. https://chatgpt.com/
+            </figcaption>
+          </figure>
         </div>
       </ContentSection>
         
@@ -26,81 +37,78 @@ const AILiteracyPrinciplesPage: React.FC = () => {
           <p className="mb-4">
             As with any new subject, individuals must learn about a new technology before they can do anything substantive with it. Attempting to learn about a rapidly evolving field as large as GenerativeAI can seem like a daunting task. However, this guidebook endeavors to simplify the process by providing an actionable framework for becoming literate in AI. The first step is to put oneself on the path to learning. There are a few key ways to start learning about AI:
           </p>
-           <ol style={{ marginLeft: "1.5em", paddingLeft: "1em" }}>
-             <li><strong>1.</strong> Reading articles, handouts, and literature on AI</li>
-             <li><strong>2.</strong>Watching educational videos on AI</li>
-             <li><strong>3.</strong>Discussing academic applications of AI with faculty</li>
-             <li><strong>4.</strong>Taking scientific or humanities-focused courses on AI</li>
-             <li><strong>5.</strong>Testing AI applications</li>
-           </ol>
+          <ol style={{ marginLeft: "1.5em", paddingLeft: "1em" }}>
+            <li><strong>1.</strong> Reading articles, handouts, and literature on AI</li>
+            <li><strong>2.</strong>Watching educational videos on AI</li>
+            <li><strong>3.</strong>Discussing academic applications of AI with faculty</li>
+            <li><strong>4.</strong>Taking scientific or humanities-focused courses on AI</li>
+            <li><strong>5.</strong>Testing AI applications</li>
+          </ol>
 
-        
           <p className="mb-4">
-          <strong>Regarding 1)</strong>, reading articles, handouts, and literature can be a great way to learn about AI and keep up with changes in the technology. There are many accessible resources that can help teach an individual about generativeAI including, for example, Common Sense education’s ChatGPT and Beyond: How to Handle AI in Schools[1], Stanford’s Artificial Intelligence and Life in 2030[2], Elements of AI’s free AI courses, and AI for Education’s free AI Resources.  
+            <strong>Regarding 1)</strong>, reading articles, handouts, and literature can be a great way to learn about AI and keep up with changes in the technology. There are many accessible resources that can help teach an individual about generativeAI including, for example, Common Sense education's ChatGPT and Beyond: How to Handle AI in Schools[1], Stanford's Artificial Intelligence and Life in 2030[2], Elements of AI's free AI courses, and AI for Education's free AI Resources.  
           </p>
           <p className="mb-4">
-          <strong>Regarding 2)</strong>, watching informational videos can also be a great way to learn about AI. Educational Organizations and universities provide great resources for educational video content for AI. For example, Ethan and Lilach Mollick, from the Wharton School of Business have a concise five part Youtube series called Wharton Interactive Crash Course: Practical AI for Instructors & Students[3] where concepts such as Large Language Models (LLMs) and AI prompting are discussed for students and teachers. Other resources include Notre Dame’s AI[4] for Teaching and Learning Video Series, Code.org’s AI 101[5] for Teachers video series, and TCU Neeley School of Business’ AI-powered Teaching and Learning instructional video[6]. 
-
+            <strong>Regarding 2)</strong>, watching informational videos can also be a great way to learn about AI. Educational Organizations and universities provide great resources for educational video content for AI. For example, Ethan and Lilach Mollick, from the Wharton School of Business have a concise five part Youtube series called Wharton Interactive Crash Course: Practical AI for Instructors & Students[3] where concepts such as Large Language Models (LLMs) and AI prompting are discussed for students and teachers. Other resources include Notre Dame's AI[4] for Teaching and Learning Video Series, Code.org's AI 101[5] for Teachers video series, and TCU Neeley School of Business' AI-powered Teaching and Learning instructional video[6]. 
           </p>
           <p className="mb-4">
-          <strong>Regarding 3)</strong>, College of Wooster students are encouraged to discuss with their professors how they can appropriately use AI in the classroom. Students can learn how faculty view AI and how faculty see AI providing benefits and drawbacks in the course. Thus, faculty can be a valuable resource for students when it comes to understanding how current AI can apply to coursework and one’s entire field of study.
-
+            <strong>Regarding 3)</strong>, College of Wooster students are encouraged to discuss with their professors how they can appropriately use AI in the classroom. Students can learn how faculty view AI and how faculty see AI providing benefits and drawbacks in the course. Thus, faculty can be a valuable resource for students when it comes to understanding how current AI can apply to coursework and one's entire field of study.
           </p>
           <p className="mb-4">
-          <strong>Regarding 4)</strong>, a structured curriculum on AI can be a valuable learning resource for students and faculty. For example, the College of Wooster offers, at the time of writing, a course titled Writing with AI, where students explore, discuss, and practice various applications of AI are taught, discussed, and practiced as well as many other considerations that come with AI, along with examining its ethical, legal, and societal implications. Beyond the College of Wooster, there is free and accessible online course content such as Khan Academy’s AI for Education[7] course and LinkedIn Learning. The College of Wooster provides a LinkedIn Learning account for free with your Wooster email account. LinkedIn Learning has valuable and informative course offerings that can be completed at one’s own pace. These courses include “What is Generative AI?”, “Introduction to Artificial Intelligence”, “How to Boost Your Productivity with AI Tools”, and “Introduction to Prompt Engineering for Generative AI”, among others. 
+            <strong>Regarding 4)</strong>, a structured curriculum on AI can be a valuable learning resource for students and faculty. For example, the College of Wooster offers, at the time of writing, a course titled Writing with AI, where students explore, discuss, and practice various applications of AI are taught, discussed, and practiced as well as many other considerations that come with AI, along with examining its ethical, legal, and societal implications. Beyond the College of Wooster, there is free and accessible online course content such as Khan Academy's AI for Education[7] course and LinkedIn Learning. The College of Wooster provides a LinkedIn Learning account for free with your Wooster email account. LinkedIn Learning has valuable and informative course offerings that can be completed at one's own pace. These courses include "What is Generative AI?", "Introduction to Artificial Intelligence", "How to Boost Your Productivity with AI Tools", and "Introduction to Prompt Engineering for Generative AI", among others. 
           </p>
           <p className="mb-4">
-          <strong>Regarding 5)</strong>, while hands-on learning through testing AI applications is a great way to learn about AI, individuals should take caution. There are notable limitations to AI, meaning AI does not always produce accurate responses. Furthemore, these responses can be biased. Also, users should carefully consider the sensitivity of the data they send to AI applications because companies can store student data for further training. To further learn about these limitations, check out the sections titled "AI and Equity" and "Challenges and Concerns when using AI in Education". Once an individual feels confident in their knowledge of AI limitations, then they can begin to apply what they have learned through use of AI applications such as ChatGPT. 
+            <strong>Regarding 5)</strong>, while hands-on learning through testing AI applications is a great way to learn about AI, individuals should take caution. There are notable limitations to AI, meaning AI does not always produce accurate responses. Furthemore, these responses can be biased. Also, users should carefully consider the sensitivity of the data they send to AI applications because companies can store student data for further training. To further learn about these limitations, check out the sections titled "AI and Equity" and "Challenges and Concerns when using AI in Education". Once an individual feels confident in their knowledge of AI limitations, then they can begin to apply what they have learned through use of AI applications such as ChatGPT. 
           </p>
           <p className="mb-4">
-          These sources of learning about AI are all valuable in their own right but together all contribute to learning about GenerativeAI and contributing to AI Literacy. Learning is the first stage. The next stage is application.
+            These sources of learning about AI are all valuable in their own right but together all contribute to learning about GenerativeAI and contributing to AI Literacy. Learning is the first stage. The next stage is application.
           </p>
         </div>
       </ContentSection>
+
       <ContentSection title="Apply">  
         <div className="prose prose-amber max-w-none">      
           <p className="mb-4">
-          The goal of the application step is to take what an individual has learned about various aspects of AI and put that knowledge into action. To apply this knowledge, students and faculty should try out AI tools in real-world academic and personal contexts. Of course, the limitations and dangers of AI should be kept in mind. In the application stage, students and faculty should be learning how to chat with GenerativeAI, also known as prompting. In this stage, students and faculty should be discovering how well AI applies to their academic needs and use cases. Within this guidebook, students can check out the Student Use of AI section, and faculty can check out the Faculty Use of GenerativeAI section to learn more about the types of use cases AI can address. In both of these sections, various academic AI applications and ways to use AI are discussed. Furthermore, students and faculty should be sure to read the Ethical Use of AI and AI Use for Education sections. In this application stage, practice and experimentation are key to learning how to ethically and practically apply AI to one’s academic, professional, and personal workflows. 
+            The goal of the application step is to take what an individual has learned about various aspects of AI and put that knowledge into action. To apply this knowledge, students and faculty should try out AI tools in real-world academic and personal contexts. Of course, the limitations and dangers of AI should be kept in mind. In the application stage, students and faculty should be learning how to chat with GenerativeAI, also known as prompting. In this stage, students and faculty should be discovering how well AI applies to their academic needs and use cases. Within this guidebook, students can check out the Student Use of AI section, and faculty can check out the Faculty Use of GenerativeAI section to learn more about the types of use cases AI can address. In both of these sections, various academic AI applications and ways to use AI are discussed. Furthermore, students and faculty should be sure to read the Ethical Use of AI and AI Use for Education sections. In this application stage, practice and experimentation are key to learning how to ethically and practically apply AI to one's academic, professional, and personal workflows. 
           </p>
         </div>
       </ContentSection>
+
       <ContentSection title="Refine">  
         <div className="prose prose-amber max-w-none">      
           <p className="mb-4">
-          The next stage is refinement. This stage involves critical thinking and self-reflection. In this stage, an individual should begin to recognize AI “hallucinations” or false information produced by the AI, if any. An individual should evaluate the responses for any bias in the model responses or outputs. Furthermore, multiple AI outputs can be compared to see how various AI applications respond to the task. In essence, this stage is all about critically evaluating the model response from practical and ethical perspectives. 
+            The next stage is refinement. This stage involves critical thinking and self-reflection. In this stage, an individual should begin to recognize AI "hallucinations" or false information produced by the AI, if any. An individual should evaluate the responses for any bias in the model responses or outputs. Furthermore, multiple AI outputs can be compared to see how various AI applications respond to the task. In essence, this stage is all about critically evaluating the model response from practical and ethical perspectives. 
           </p>
           <p className="mb-4">
-          After applying what one has learned, a series of questions can be asked to critically evaluate the model and self-reflect on one’s own processes using AI. Here are some example questions. How did AI help or hinder one’s academic, professional, or personal process? Did the AI model provide helpful answers or outputs? How can I incorporate these answers into my own thinking and work in academically ethical ways? Did the AI model provide bad, generic, or even harmful answers or outputs? Why might the AI have performed poorly on this task or prompt? Does the poor performance stem from my own prompting or does the model have a track record of performing poorly in this particular area, field, or task? How could I better apply the knowledge I have to my AI workflow? What do I need to learn to improve my application of AI to my academic, professional, or personal workflow(s)?
+            After applying what one has learned, a series of questions can be asked to critically evaluate the model and self-reflect on one's own processes using AI. Here are some example questions. How did AI help or hinder one's academic, professional, or personal process? Did the AI model provide helpful answers or outputs? How can I incorporate these answers into my own thinking and work in academically ethical ways? Did the AI model provide bad, generic, or even harmful answers or outputs? Why might the AI have performed poorly on this task or prompt? Does the poor performance stem from my own prompting or does the model have a track record of performing poorly in this particular area, field, or task? How could I better apply the knowledge I have to my AI workflow? What do I need to learn to improve my application of AI to my academic, professional, or personal workflow(s)?
           </p>
           <p className="mb-4">
-          While the refinement stage is the last of these proposed core AI Literacy principles, these stages are cyclical. Remaining literate in AI requires engagement in the learning, applying, and refining cycle. By actively engaging in these core principles, individuals can develop a deeper understanding of AI’s capabilities and limitations, enabling them to effectively and ethically integrate this technology into their academic pursuits and beyond. The resources and guidance provided in this guidebook serve as a valuable starting point for fostering a continuous cycle of exploration with and critical evaluation of the evolving landscape of artificial intelligence
+            While the refinement stage is the last of these proposed core AI Literacy principles, these stages are cyclical. Remaining literate in AI requires engagement in the learning, applying, and refining cycle. By actively engaging in these core principles, individuals can develop a deeper understanding of AI's capabilities and limitations, enabling them to effectively and ethically integrate this technology into their academic pursuits and beyond. The resources and guidance provided in this guidebook serve as a valuable starting point for fostering a continuous cycle of exploration with and critical evaluation of the evolving landscape of artificial intelligence
           </p>
 
           <div className="bg-amber-50 p-6 rounded-lg">
             <h3 className="text-lg font-semibold text-amber-900 mb-4">References</h3>
             <ol className="list-decimal list-inside space-y-2 text-sm text-amber-800">
               <li>
-              Elgersma, C. (2024, March 6). Chatgpt and beyond: How to handle AI in schools. Common Sense Education. https://www.commonsense.org/education/articles/chatgpt-and-beyond-how-to-handle-ai-in-schools 
-
-              </li>
-              
-              <li>
-             ONE HUNDRED YEAR STUDY ON ARTIFICIAL INTELLIGENCE. (2016, September). Artificial Intelligence and life in 2030. ARTIFICIAL INTELLIGENCE AND LIFE IN 2030. https://ai100.stanford.edu/sites/g/files/sbiybj18871/files/media/file/ai100report10032016fnl_singles.pdf 
+                Elgersma, C. (2024, March 6). Chatgpt and beyond: How to handle AI in schools. Common Sense Education. https://www.commonsense.org/education/articles/chatgpt-and-beyond-how-to-handle-ai-in-schools 
               </li>
               <li>
-              Wharton School. (2024). Wharton Interactive Crash Course: Practical AI for Instructors & Students. YouTube. https://www.youtube.com/watch?v=t9gmyvf7JYo 
+                ONE HUNDRED YEAR STUDY ON ARTIFICIAL INTELLIGENCE. (2016, September). Artificial Intelligence and life in 2030. ARTIFICIAL INTELLIGENCE AND LIFE IN 2030. https://ai100.stanford.edu/sites/g/files/sbiybj18871/files/media/file/ai100report10032016fnl_singles.pdf 
               </li>
               <li>
-              Marketing Communications: Web | University of Notre Dame. (n.d.). AI for teaching and learning video series. Notre Dame Learning. https://learning.nd.edu/learning-technology/ai-in-teaching-and-learning/ai-for-teaching-and-learning-video-series/ 
+                Wharton School. (2024). Wharton Interactive Crash Course: Practical AI for Instructors & Students. YouTube. https://www.youtube.com/watch?v=t9gmyvf7JYo 
               </li>
               <li>
-              Code.org. (n.d.). AI 101 for teachers. Code.org. https://code.org/ai/pl/101 
+                Marketing Communications: Web | University of Notre Dame. (n.d.). AI for teaching and learning video series. Notre Dame Learning. https://learning.nd.edu/learning-technology/ai-in-teaching-and-learning/ai-for-teaching-and-learning-video-series/ 
               </li>
               <li>
-              TCU Neeleys School of Business. (2024a).  AI-powered Teaching and Learning. YouTube. https://www.youtube.com/watch?v=sWCFCQ_Vka4&t=3s&ab_channel=TCUNeeleySchoolofBusiness 
+                Code.org. (n.d.). AI 101 for teachers. Code.org. https://code.org/ai/pl/101 
               </li>
               <li>
-              Khan Academy. (n.d.). AI for education. Khan Academy. https://www.khanacademy.org/college-careers-more/ai-for-education 
+                TCU Neeleys School of Business. (2024a). AI-powered Teaching and Learning. YouTube. https://www.youtube.com/watch?v=sWCFCQ_Vka4&t=3s&ab_channel=TCUNeeleySchoolofBusiness 
+              </li>
+              <li>
+                Khan Academy. (n.d.). AI for education. Khan Academy. https://www.khanacademy.org/college-careers-more/ai-for-education 
               </li>
             </ol>
           </div>

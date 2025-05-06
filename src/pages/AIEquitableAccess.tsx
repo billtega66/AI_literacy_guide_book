@@ -16,9 +16,22 @@ const AIEquitableAccessPage: React.FC = () => {
     >
       <ContentSection>
         <div className="prose prose-amber max-w-none">
+          <div className="mb-8">
+            <figure className="w-full mb-6">
+              <img 
+                src="/safeguarding_equitable_AI_and_Equity.png"
+                alt="Diagram showing strategies for safeguarding equitable AI access, including digital divide mitigation, AI equity committee establishment, and feedback mechanisms" 
+                className="rounded-lg shadow-lg mx-auto"
+                style={{ width: '50%', maxWidth: '600px', height: 'auto', objectFit: 'contain' }}
+              />
+              <figcaption className="text-sm text-amber-700 mt-2 text-center">
+                Strategies for Safeguarding Equitable AI Access at The College of Wooster. Adapted from "From concerns to benefits: A comprehensive study of ChatGPT usage in education" by Jo, 2024, International Journal of Educational Technology in Higher Education.
+              </figcaption>
+            </figure>
+          </div>
           
           <p className="mb-4">
-          Aside from educating students, staff, and faculty about the above-mentioned inequalities embedded in AI systems, the Academic Resource Center should do its utmost to safeguard digital equity within the institution.
+          Aside from educating students, staff, and faculty about inequalities embedded in AI systems, the Academic Resource Center should do its utmost to safeguard digital equity within the institution.
           </p>
           <p className="mb-4">
 [Digital] equity in education means ensuring that every learner, regardless of socioeconomic status, language, race, geography, physical restrictions, cultural background, gender, or other attributes historically associated with inequities, has equitable access to advanced technologies, communication and information resources, and the learning experiences they provide[1]. 

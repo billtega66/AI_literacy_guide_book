@@ -22,7 +22,7 @@ const HomePage: React.FC = () => {
           on the ethical use of artificial intelligence in teaching, learning, and research.
         </p>
         <div className="flex flex-wrap gap-4">
-          <Link href="/introduction" className="inline-flex items-center px-4 py-2 bg-amber-500 text-white rounded-md hover:bg-amber-600 transition-colors">
+          <Link href="/defining-ai-literacy" className="inline-flex items-center px-4 py-2 bg-amber-500 text-white rounded-md hover:bg-amber-600 transition-colors">
             <span>Get Started</span>
             <ArrowRight size={16} className="ml-2" />
           </Link>
@@ -42,7 +42,7 @@ const HomePage: React.FC = () => {
               <p className="mb-3">
                 Guidelines for incorporating AI discussions in your curriculum, creating AI policies for your courses, and fostering responsible AI use.
               </p>
-              <Link href="/faculty-guidelines" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
+              <Link href="/faculty-use" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
                 <span>Faculty Guidelines</span>
                 <ArrowRight size={14} className="ml-1" />
               </Link>
@@ -59,7 +59,7 @@ const HomePage: React.FC = () => {
               <p className="mb-3">
                 Best practices for using AI tools ethically in your coursework, understanding AI capabilities and limitations, and developing AI literacy.
               </p>
-              <Link href="/student-guidelines" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
+              <Link href="/student-use" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
                 <span>Student Guidelines</span>
                 <ArrowRight size={14} className="ml-1" />
               </Link>
@@ -67,7 +67,7 @@ const HomePage: React.FC = () => {
           </div>
         </InfoCard>
         
-        <InfoCard title="Ethical Principles">
+        <InfoCard title="AI and Equity">
           <div className="flex items-start">
             <div className="bg-amber-100 p-3 rounded-full mr-4">
               <Shield size={24} className="text-amber-700" />
@@ -76,7 +76,7 @@ const HomePage: React.FC = () => {
               <p className="mb-3">
                 Core principles of fairness, transparency, accountability, and human-centeredness in AI applications for academic contexts.
               </p>
-              <Link href="/principles" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
+              <Link href="/ai-and-equity" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
                 <span>Explore Principles</span>
                 <ArrowRight size={14} className="ml-1" />
               </Link>
@@ -84,7 +84,7 @@ const HomePage: React.FC = () => {
           </div>
         </InfoCard>
         
-        <InfoCard title="Case Studies">
+        <InfoCard title="Ethical Use of AI">
           <div className="flex items-start">
             <div className="bg-amber-100 p-3 rounded-full mr-4">
               <Globe size={24} className="text-amber-700" />
@@ -93,7 +93,7 @@ const HomePage: React.FC = () => {
               <p className="mb-3">
                 Real-world examples of ethical challenges and solutions in AI implementation across various academic disciplines.
               </p>
-              <Link href="/case-studies" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
+              <Link href="/ethical-use" className="text-amber-600 hover:text-amber-800 inline-flex items-center">
                 <span>View Case Studies</span>
                 <ArrowRight size={14} className="ml-1" />
               </Link>
@@ -116,7 +116,7 @@ const HomePage: React.FC = () => {
         />
         
         <p>
-          By establishing clear ethical guidelines, we can harness the potential of AI 
+          By establishing clear literacy guidelines, we can harness the potential of AI 
           to enhance education while mitigating risks and ensuring alignment with our 
           institutional values and academic integrity standards.
         </p>

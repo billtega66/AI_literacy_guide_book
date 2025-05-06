@@ -16,16 +16,16 @@ const AIInequalitiesPage: React.FC = () => {
     >
       <ContentSection>
         <div className="prose prose-amber max-w-none">
-          <div className="mb-8">
-            <figure className="w-full mb-6">
+          <div className="md:flex mb-8">
+            <figure className="w-full md:w-auto mb-4 md:mb-0 md:mr-6">
               <img 
                 src="/AI_inherent_inequalities.png"
                 alt="AI Inherent Inequalities Diagram showing six interconnected aspects: Discrimination, Personal Information Hazards, Malicious Uses of LMs, Environmental and Socioeconomic Harms, Human-Computer Interaction Harms, and Misinformation Harms" 
-                className="rounded-lg shadow-lg mx-auto"
-                style={{ width: '100%', maxWidth: '600px', height: 'auto', objectFit: 'contain' }}
+                className="rounded-lg shadow-lg"
+                style={{ width: '325px', height: '247px', objectFit: 'contain' }}
               />
               <figcaption className="text-sm text-amber-700 mt-2 text-center">
-                Overview of AI-Inherent Inequalities and Their Interconnections. Adapted from "Taxonomy of risks posed by language models" by Weidinger et al., 2022, Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency.
+                Overview of AI-Inherent Inequalities and Their Interconnections
               </figcaption>
             </figure>
             <div>

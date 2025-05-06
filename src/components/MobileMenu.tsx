@@ -12,10 +12,12 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
     {
       title: 'Introduction',
       href: '/introduction',
-      submenu: ['What is AI Ethics?', 'Importance in Academia', 'Course Overview']
+      submenu: [{label: 'Define AI Literacy', href:'/def/defining-ai-literacy'},
+                {label: 'AI Literacy at The Cow', href: '/ai-literacy-cow'},
+                {label: 'AI Literacy Principles', href: '/ai-literacy-principles'},]
     },
     {
-      title: 'Principles',
+      title: 'AI and Ethical Use',
       href: '/principles',
       submenu: ['Fairness', 'Accountability', 'Transparency', 'Human Rights']
     },
@@ -31,8 +33,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, onClose }) => {
     },
     {
       title: 'Contact',
-      href: '/contact',
-      submenu: []
+      href: '/contact'
     },
   ];
 
