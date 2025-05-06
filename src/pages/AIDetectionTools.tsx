@@ -16,14 +16,14 @@ const AIDetectionToolsPage: React.FC = () => {
       <ContentSection title="Understanding AI Detection Tools">
         <div className="prose prose-amber max-w-none">
           <p className="mb-4">
-            AI detection tools can be handy, but at the same time, they are not perfect[1][2]. While many tools are being used widely, such as GPTZero, Copyleaks, and WRITER, which have accuracy rates exceeding 80% [1][2], this might depend on what data is being used to train the model and the context of writing.
+            AI detection tools can be handy, but at the same time, they are not perfect[1]. While many tools are being used widely, such as GPTZero, Copyleaks, and WRITER, which have accuracy rates exceeding 80% [1], this might depend on what data is being used to train the model and the context of writing.
           </p>
           <p className="mb-4">
-          According to Elkhatat [4], detection tools make really good detections for some of the older models, like ChatGPT 3.5. However, when being tested on newer models like ChatGPT 4, the same tools showed increased uncertainty and false-negative results when assessing content, as they mention in their study:  “There were a few instances where the tools provided an uncertain or false-negative classification”[4]. In some cases, they even misclassified human-written content. This suggests that while AI detectors can assist educators, their predictions should be handled with caution.
+          According to Elkhatat [3], detection tools make really good detections for some of the older models, like ChatGPT 3.5. However, when being tested on newer models like ChatGPT 4, the same tools showed increased uncertainty and false-negative results when assessing content, as they mention in their study:  “There were a few instances where the tools provided an uncertain or false-negative classification”[3]. In some cases, they even misclassified human-written content. This suggests that while AI detectors can assist educators, their predictions should be handled with caution.
 
           </p>
           <p className="mb-4">
-          Additionally, in van Oijen [3], the study shows that the detection tools’ overall accuracy in detecting AI-generated context is only around 27.9%, and the maximum accuracy that was achieved in the test is 50% by the “Corrector App”. On the other hand, two of the most-used detection tools are <strong>“WRITER” </strong>and <strong>“Content at Scale,”</strong> have the worst performance out of all 7 tools, which is 0% [3].  This seems to be unpredictable. Also, in the study, when testing with different prompts in different types of languages, some tools fail to predict Dutch as they have no support in that type of language itself[3]. Up to a certain point, some tools still have limitations in detecting different languages other than English. Although achieving benefits in the use of detection tools in academic review is thoughtful, their prediction should be approached carefully. 
+          Additionally, in van Oijen [2], the study shows that the detection tools’ overall accuracy in detecting AI-generated context is only around 27.9%, and the maximum accuracy that was achieved in the test is 50% by the “Corrector App”. On the other hand, two of the most-used detection tools are <strong>“WRITER” </strong>and <strong>“Content at Scale,”</strong> have the worst performance out of all 7 tools, which is 0% [2].  This seems to be unpredictable. Also, in the study, when testing with different prompts in different types of languages, some tools fail to predict Dutch as they have no support in that type of language itself[2]. Up to a certain point, some tools still have limitations in detecting different languages other than English. Although achieving benefits in the use of detection tools in academic review is thoughtful, their prediction should be approached carefully. 
 
           </p>
         </div>
@@ -41,10 +41,6 @@ const AIDetectionToolsPage: React.FC = () => {
 
               </li>
               
-              <li>
-              Purdue Libraries. (n.d.). Citing AI. Purdue University. Retrieved from https://guides.lib.purdue.edu/c.php?g=1371380&p=10135074
-
-              </li>
               <li>
               van Oijen, V. (2023). AI-generated text detectors: Do they work?. SURF Communities. https://communities.surf.nl/en/ai-in-education/article/ai-generated-text-detectors-do-they-work
 
