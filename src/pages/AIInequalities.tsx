@@ -14,32 +14,34 @@ const AIInequalitiesPage: React.FC = () => {
       currentPath="/ai-and-equity/inequalities"
       title="Understanding General AI-Inherent Inequalities"
     >
-      <ContentSection>
+      <ContentSection title="Overview">
         <div className="prose prose-amber max-w-none">
-          <div className="mb-8">
-            <figure className="w-full mb-6">
-              <img 
-                src="/AI_inherent_inequalities.png"
-                alt="AI Inherent Inequalities Diagram showing six interconnected aspects: Discrimination, Personal Information Hazards, Malicious Uses of LMs, Environmental and Socioeconomic Harms, Human-Computer Interaction Harms, and Misinformation Harms" 
-                className="rounded-lg shadow-lg mx-auto"
-                style={{ width: '100%', maxWidth: '600px', height: 'auto', objectFit: 'contain' }}
-              />
-              <figcaption className="text-sm text-amber-700 mt-2 text-center">
-                Overview of AI-Inherent Inequalities and Their Interconnections. Adapted from "Taxonomy of risks posed by language models" by Weidinger et al., 2022, Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency.
-              </figcaption>
-            </figure>
-            <div>
-              <p className="mb-4">
-                Algorithmic bias in training data and LM output reflect hegemonic power dynamics which reinforce social stereotypes, thereby exacerbating the discrimination of already marginalized groups [1][2]. Aside from racial, ethnic, or cultural biases in the design of LMs, unequal access to AI tools across the globe leads to an underrepresentation and further discrimination of minority groups' viewpoints [3]. Elaborate methods for bias detection and more representative training data are thus necessary to address AI-inherent social, political, and cultural inequalities to counteract growing power asymmetries [2][4]. Raising awareness within the COW community about the potential discrimination against certain groups resulting from LLM outputs is essential to ensure ethical AI use and to uphold The Scot's Key (pp. 6-7) community values and non-discriminatory policies.
-              </p>
-            </div>
-          </div>
+          <figure className="w-full mb-6">
+            <img 
+              src="/AI_inherent_inequalities.png"
+              alt="AI Inherent Inequalities Diagram"
+              className="rounded-lg shadow-lg mx-auto"
+              style={{ width: '100%', maxWidth: '600px', height: 'auto', objectFit: 'contain' }}
+            />
+            <figcaption className="text-sm text-amber-700 mt-2 text-center">
+              Overview of AI-Inherent Inequalities and Their Interconnections. Adapted from "Taxonomy of risks posed by language models" by Weidinger et al., 2022, Proceedings of the 2022 ACM Conference on Fairness, Accountability, and Transparency.
+            </figcaption>
+          </figure>
+        </div>
+      </ContentSection>
+
+      <ContentSection title="Discrimination">
+        <div className="prose prose-amber max-w-none">
+          <p className="mb-4">
+            Algorithmic bias in training data and LM output reflect hegemonic power dynamics which reinforce social stereotypes, thereby exacerbating the discrimination of already marginalized groups [1][2]. Aside from racial, ethnic, or cultural biases in the design of LMs, unequal access to AI tools across the globe leads to an underrepresentation and further discrimination of minority groups' viewpoints [3]. Elaborate methods for bias detection and more representative training data are thus necessary to address AI-inherent social, political, and cultural inequalities to counteract growing power asymmetries [2][4]. Raising awareness within the COW community about the potential discrimination against certain groups resulting from LLM outputs is essential to ensure ethical AI use and to uphold The Scot's Key (pp. 6–7) community values and non-discriminatory policies.
+          </p>
         </div>
       </ContentSection>
 
       <ContentSection title="Personal Information Hazards">
         <div className="prose prose-amber max-w-none">
           <p className="mb-4">
+
             All COW members should also be taught to be mindful of personal information hazards [1]. Even the application of algorithmic tools like differential privacy methods during LM training cannot rule out the potential leakage of private information[1]. In a process referred to as datafication, AI algorithms collect and retain information, whether it is entered into their system personally or by another party [3][1]. Hence, in cases of data leaks, intellectual property and sensitive information may be used against an individual in harmful ways, violating their privacy [1]. Besides, in the near future, AI algorithms' ability to infer sensitive information will improve and, even when those inferences are incorrect, plausible-sounding analyses may cause harm to individuals [1]. In light of these personal information hazards, as also suggested by Dwivedi et al.[5] and Yale University [6] members of the Wooster community are highly encouraged to never input personal, sensitive, or third-party information into LLMs without the informed consent of all stakeholders involved.
           </p>
         </div>
