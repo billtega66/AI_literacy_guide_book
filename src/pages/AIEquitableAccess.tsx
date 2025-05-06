@@ -26,8 +26,8 @@ const AIEquitableAccessPage: React.FC = () => {
                 className="rounded-lg shadow-lg w-full h-auto"
               />
               <figcaption className="text-sm text-amber-700 mt-2 text-center">
-                Strategies for Safeguarding Equitable AI Access at The College of Wooster. Adapted from https://images.app.goo.gl/wmo
-                vjHt2YxzB8DCs8
+                Access key. Free images PxHere. (5 May, 2025). https://images.app.goo.gl/wmov
+                jHt2YxzB8DCs8
               </figcaption>
             </figure>
           
