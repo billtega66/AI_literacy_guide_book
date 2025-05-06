@@ -18,7 +18,7 @@ import ChallengesAndConcernsPage from './pages/ChallengesAndConcerns';
 import AIUseForEducationPage from './pages/AIUseForEducation';
 import FacultyUseOfAIPage from './pages/FacultyUseOfAI';
 import AIDetectionToolsPage from './pages/AIDetectionTools';
-import DynamicAIPolicyPage from './pages/DynamicAIPolicy';
+
 
 function App() {
   const [currentPage, setCurrentPage] = React.useState<string>('home');
@@ -60,8 +60,6 @@ function App() {
         setCurrentPage('faculty-use');
       } else if (path.includes('detection-tools')) {
         setCurrentPage('detection-tools');
-      } else if (path.includes('dynamic-policy')) {
-        setCurrentPage('dynamic-policy');
       } else {
         setCurrentPage('home');
       }
@@ -108,7 +106,6 @@ function App() {
       {currentPage === 'ai-education' && <AIUseForEducationPage />}
       {currentPage === 'faculty-use' && <FacultyUseOfAIPage />}
       {currentPage === 'detection-tools' && <AIDetectionToolsPage />}
-      {currentPage === 'dynamic-policy' && <DynamicAIPolicyPage />}
     </>
   );
 }

@@ -121,6 +121,11 @@ const HomePage: React.FC = () => {
           institutional values and academic integrity standards.
         </p>
       </ContentSection>
+      <ContentSection title="Dynamic AI Policy">
+        <p className="mb-4">
+        Artificial intelligence (AI) is a rapidly evolving field where technological capabilities and applications can quickly change. The College of Wooster is committed to the review of its AI guidelines in light of these potential changes.  
+        </p>
+      </ContentSection>
     </MainLayout>
   );
 };

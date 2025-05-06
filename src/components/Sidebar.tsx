@@ -59,10 +59,6 @@ export const Sidebar: React.FC<SidebarProps> = ({ currentPath }) => {
       title: 'AI Detection tools\' reliability',
       path: '/detection-tools'
     },
-    { 
-      title: 'Dynamic AI Policy',
-      path: '/dynamic-policy'
-    },
   ];
 
   return (
