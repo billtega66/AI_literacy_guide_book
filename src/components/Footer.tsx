@@ -32,23 +32,23 @@ const Footer: React.FC = () => {
             <h4 className="font-medium text-amber-900 mb-3">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <Link href="/introduction" className="text-amber-700 hover:text-amber-900">
-                  Introduction to AI Ethics
+                <Link href="/defining-ai-literacy" className="text-amber-700 hover:text-amber-900">
+                  Define AI Literacy
                 </Link>
               </li>
               <li>
-                <Link href="/principles" className="text-amber-700 hover:text-amber-900">
-                  Ethical Principles
+                <Link href="/ai-and-equity" className="text-amber-700 hover:text-amber-900">
+                  AI and Equity
                 </Link>
               </li>
               <li>
-                <Link href="/case-studies" className="text-amber-700 hover:text-amber-900">
-                  Case Studies
+                <Link href="/student-use" className="text-amber-700 hover:text-amber-900">
+                  Students' Use of AI
                 </Link>
               </li>
               <li>
-                <Link href="/resources" className="text-amber-700 hover:text-amber-900">
-                  Resources & References
+                <Link href="/ethical-use" className="text-amber-700 hover:text-amber-900">
+                  Ethical Use of AI
                 </Link>
               </li>
             </ul>
