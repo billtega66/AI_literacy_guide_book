@@ -1,6 +1,7 @@
 import React from 'react';
 import { ChevronRight } from 'lucide-react';
 import { Link } from './Navigation';
+import ContactPage from '../pages/ContactPage';
 
 interface MobileMenuProps {
   isOpen: boolean;
