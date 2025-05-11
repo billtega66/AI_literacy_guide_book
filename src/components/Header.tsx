@@ -74,7 +74,10 @@ const Header: React.FC = () => {
   const handleResultClick = (path: string) => {
     setSearchQuery('');
     setShowResults(false);
-    window.location.href = path;
+    // Update history and trigger navigation handler
+    window.history.pushState({}, '', path);
+    const navigationEvent = new PopStateEvent('popstate');
+    window.dispatchEvent(navigationEvent);
   };
 
   return (
@@ -88,6 +91,9 @@ const Header: React.FC = () => {
             </Link>
             <Link href="/contact" className="text-amber-800 hover:text-amber-600 text-sm">
               Contact
+            </Link>
+            <Link href="/calendar" className="text-amber-800 hover:text-amber-600 text-sm">
+              Calendar
             </Link>
           </div>
           <div className="hidden md:block relative">
